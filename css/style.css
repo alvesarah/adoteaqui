@@ -125,7 +125,7 @@
 }
 
 .figure_img:hover {
-    transform: scale(1.0);
+    transform: scale(1.2);
     cursor: pointer;
     background-color: var(--rosa);
 }
@@ -134,11 +134,6 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-}
-
-.main__img:hover {
-    width: 300px;
-    height: 300px;
 }
 
 
@@ -184,13 +179,12 @@
     .section__div-primeira-fileira, .section__div-segunda-fileira, .section__div-terceira-fileira, .section__div-quarta-fileira {
         flex-direction: column;
         width: 100%;
-        margin: 0 20%;
+        align-items: center;
     }
 
     .figure_img {
         width: 50%;
     }
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Red+Hat+Mono:wght@300&display=swap');
